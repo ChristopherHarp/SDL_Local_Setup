@@ -25,7 +25,7 @@ requests
 # Optional: For advanced data visualization (if needed)
 plotly
 matplotlib
-dash
+dash==2.18.2
 dash_ag_grid
 
 # Utils
