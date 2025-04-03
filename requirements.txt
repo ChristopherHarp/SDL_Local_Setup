@@ -1,0 +1,32 @@
+# Core JupyterLab & Widgets
+jupyterlab
+jupyterlab_widgets
+widgetsnbextension
+jupyter_server
+notebook
+ipykernel  # Ensures Jupyter kernel works properly
+voila
+
+# ipyvuetify Dependencies
+ipywidgets
+ipyvue
+ipyvuetify
+
+# Seeq Integration
+seeq
+seeq-spy
+
+# Data Handling
+pandas
+numpy
+pytz
+requests
+
+# Optional: For advanced data visualization (if needed)
+plotly
+matplotlib
+dash
+dash_ag_grid
+
+# Utils
+psutil

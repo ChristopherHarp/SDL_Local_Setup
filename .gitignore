@@ -1,0 +1,53 @@
+# Ignore Python virtual environment
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings and workspace files
+.vscode/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.out
+*.tmp
+.DS_Store
+
+# Ignore compiled code
+*.so
+*.dll
+*.dylib
+
+# Ignore Jupyter runtime files
+jupyter_runtime/
+jupyterlab_workspaces/
+
+# Ignore generated reports and outputs
+*.csv
+*.tsv
+*.dat
+*.log
+*.sqlite
+*.db
+
+# Ignore package manager lock files (if not needed for version control)
+Pipfile.lock
+poetry.lock
+
+# Ignore cache directories
+__pycache__/
+.nox/
+.mypy_cache/
+.pytest_cache/
+.qodo
+credentials.json
