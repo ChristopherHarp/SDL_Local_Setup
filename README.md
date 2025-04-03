@@ -28,7 +28,7 @@ If you haven't installed these yet, follow the links above before continuing.
 To maintain your own copy of the repository while still receiving updates from the original project, follow these steps:
 
 1. **Go to GitHub** and fork the repository:  
-   - Navigate to **`https://www.github.com/seeq12/ae-local-setup.git`**  
+   - Navigate to **[https://www.github.com/ChristopherHarp/SDL_Local_Setup](https://github.com/ChristopherHarp/SDL_Local_Setup)**  
    - Click **Fork** (this creates a copy in your GitHub account).  
 2. **Clone your forked repository** in VS Code:  
    - Open the **Command Palette** (`Ctrl + Shift + P` on Windows/Linux, `Cmd + Shift + P` on Mac).  
@@ -40,13 +40,13 @@ To maintain your own copy of the repository while still receiving updates from t
    - Select a location on your machine and open it in VS Code.
 3. **Alternatively, use the terminal:**
    ```sh
-   git clone https://github.com/YOUR_GITHUB_USERNAME/ae-local-setup.git
+   git clone https://github.com/YOUR_GITHUB_USERNAME/sdl-local-setup.git
    cd ae-local-setup
    code .
    ```
 4. **Set up the original repo as an upstream remote**:
    ```sh
-   git remote add upstream https://github.com/seeq12/ae-local-setup.git
+   git remote add upstream https://github.com/seeq12/sdl-local-setup.git
    ```
 5. **Verify your remotes**:
    ```sh
@@ -54,10 +54,10 @@ To maintain your own copy of the repository while still receiving updates from t
    ```
    You should see:
    ```
-   origin    https://github.com/YOUR_GITHUB_USERNAME/ae-local-setup.git (fetch)
-   origin    https://github.com/YOUR_GITHUB_USERNAME/ae-local-setup.git (push)
-   upstream  https://github.com/seeq12/ae-local-setup.git (fetch)
-   upstream  https://github.com/seeq12/ae-local-setup.git (push)
+   origin    https://github.com/YOUR_GITHUB_USERNAME/sdl-local-setup.git (fetch)
+   origin    https://github.com/YOUR_GITHUB_USERNAME/sdl-local-setup.git (push)
+   upstream  https://github.com/seeq12/sdl-local-setup.git (fetch)
+   upstream  https://github.com/seeq12/sdl-local-setup.git (push)
    ```
 
 ### 🔹 Suggestion: Explain Why Upstream is Needed  
