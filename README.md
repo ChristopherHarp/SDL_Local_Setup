@@ -85,6 +85,33 @@ Since your fork is separate from the original repo, you’ll need to **fetch and
 
 ---
 
+To communicate that you've enabled a **Template** for the repository and offer it as an **alternative** to forking, you could say:
+
+---
+
+### 🔄 **Alternative: Use the Repository as a Template**
+
+If you prefer to start fresh with the same code but without linking to the original repository’s history, you can use it as a template instead of forking.
+
+1. **Go to the repository**:  
+   👉 [https://github.com/ChristopherHarp/SDL_Local_Setup](https://github.com/ChristopherHarp/SDL_Local_Setup)
+
+2. **Click “Use this template”** (green button near the top):  
+   - This creates a new repository under your GitHub account with the same content.
+   - You’ll be able to rename it, choose visibility (public/private), and start independently.
+
+3. **Clone your newly created repository**:
+   ```sh
+   git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_NEW_REPO_NAME.git
+   cd YOUR_NEW_REPO_NAME
+   code .
+   ```
+
+✅ **When to use a Template instead of Forking**:  
+Use a template if you want a clean slate based on the structure/code, but you don’t plan to merge or track updates from the original repository.
+
+---
+
 ## **2️⃣ Install Required VS Code Extensions**  
 
 Before setting up the virtual environment, make sure you have the necessary VS Code extensions installed.
