@@ -35,13 +35,13 @@ To maintain your own copy of the repository while still receiving updates from t
    - Type **"Git: Clone"** and select it.  
    - Enter your forked repository URL:
      ```
-     https://github.com/YOUR_GITHUB_USERNAME/ae-local-setup.git
+     https://github.com/YOUR_GITHUB_USERNAME/sdl-local-setup.git
      ```
    - Select a location on your machine and open it in VS Code.
 3. **Alternatively, use the terminal:**
    ```sh
    git clone https://github.com/YOUR_GITHUB_USERNAME/sdl-local-setup.git
-   cd ae-local-setup
+   cd sdl-local-setup
    code .
    ```
 4. **Set up the original repo as an upstream remote**:
